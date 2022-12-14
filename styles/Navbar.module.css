@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: violet;
+    color: rgb(29, 19, 39);
+    padding: 0 2rem;
+
+}
+
+.container ul {
+    list-style: none;
+}
+
+.container ul li a {
+    margin-left: 8px;
+    padding: 4px 8px;
+    font-weight: bold
+}
