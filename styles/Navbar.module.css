@@ -2,9 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: violet;
-    color: rgb(29, 19, 39);
+    background: rgb(9, 10, 12);
+    color: rgb(240, 236, 243);
     padding: 0 2rem;
+    height: 80px;
 
 }
 
