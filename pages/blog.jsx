@@ -1,9 +1,14 @@
-import styles from '../styles/Globals.module.css'
+import Head from 'next/head'
 
 export default function Blog() {
     return (
-        <div className={styles.container}>
+    <>
+        <Head>
+            <title>Bem-vindo ao Blog do App!</title>
+        </Head>
+        <div>
             <h1>Blog do site</h1>
         </div>
+    </>
     )
 }

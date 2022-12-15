@@ -17,6 +17,8 @@ if(noLayout.indexOf(router.route) > 2) {
   return(
     <Layout>
       <Component {...pageProps} />
+
+
     </Layout>
   )
 }

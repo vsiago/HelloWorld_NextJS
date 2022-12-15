@@ -13,8 +13,19 @@
     list-style: none;
 }
 
+.container ul li {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
 .container ul li a {
-    margin-left: 8px;
-    padding: 4px 8px;
-    font-weight: bold
+    margin-left: .5rem;
+    padding: .2rem .4rem;
+    text-align: center;
+}
+
+.container ul li a:hover {
+    text-align: center;
+    font-weight: bold;
 }

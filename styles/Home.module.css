@@ -1,0 +1,11 @@
+.title {
+    color: aliceblue;
+    padding: 20px;
+    background-image: url(../public/images/pattern.jpg);
+}
+
+.img {
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+}
